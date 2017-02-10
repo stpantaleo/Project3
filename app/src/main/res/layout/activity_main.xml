@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.project3.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Please select all the Infinty Stone"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        />
+    <CheckBox
+        android:id="@+id/mind_stone_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:padding="24dp"
+        android:text="Mind Stone"
+        />
+    <CheckBox
+        android:id="@+id/soul_stone_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:padding="24dp"
+        android:text="Soul Stone"/>
+    <CheckBox
+        android:id="@+id/heart_stone_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:padding="24dp"
+        android:text="Heart Stone"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16sp"
+        android:layout_marginTop="16sp"
+        android:text="Answer Summary"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/answer_summary_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is your answer?"
+        android:layout_marginLeft="15dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:onClick="submitAnswer"
+        android:text="Answer"
+        android:layout_marginLeft="15dp"/>
+
+</LinearLayout>
